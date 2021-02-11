@@ -1,0 +1,76 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 10/02/21 19:00
+Description: Exception ticking world
+
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.remove(Unknown Source)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73156_b(ChunkProviderServer.java:262)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:207)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:756)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.util.HashMap$HashIterator.remove(Unknown Source)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73156_b(ChunkProviderServer.java:262)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:207)
+
+-- Affected level --
+Details:
+	Level name: world
+	All players: 1 total; [EntityPlayerMP['Nicknotname'/16101, l='world', x=4803.90, y=68.00, z=3150.45]]
+	Chunk stats: ServerChunkCache: 918 Drop: 225
+	Level seed: 8221128762186785248
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (208,64,256), Chunk: (at 0,4,0 in 13,16; contains blocks 208,0,256 to 223,255,271), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 164088 game time, 38037 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 1 (now: false), thunder time: 1 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:756)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (x86) version 10.0
+	Java Version: 1.8.0_261, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 475136968 bytes (453 MB) / 990113792 bytes (944 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 1 total; -Xmx1G
+	IntCache: cache: 1, tcache: 1, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID         | Version      | Source                           | Signature                                |
+	|:------ |:---------- |:------------ |:-------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft  | 1.12.2       | minecraft.jar                    | None                                     |
+	| LCHIJA | mcp        | 9.42         | minecraft.jar                    | None                                     |
+	| LCHIJA | FML        | 8.0.99.99    | forge-1.12.2-14.23.5.2854.jar    | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge      | 14.23.5.2854 | forge-1.12.2-14.23.5.2854.jar    | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | jei        | 4.16.1.301   | jei_1.12.2-4.16.1.301.jar        | None                                     |
+	| LCHIJA | journeymap | 1.12.2-5.7.1 | journeymap-1.12.2-5.7.1.jar      | None                                     |
+	| LCHIJA | pixelmon   | 8.1.2        | Pixelmon-1.12.2-8.1.2-server.jar | None                                     |
+	| LCHIJA | waystones  | 4.0.72       | Waystones_1.12.2-4.0.72.jar      | None                                     |
+
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [EntityPlayerMP['Nicknotname'/16101, l='world', x=4803.90, y=68.00, z=3150.45]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

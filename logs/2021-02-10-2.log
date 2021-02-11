@@ -1,0 +1,136 @@
+[16:33:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:33:01] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:33:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:33:01] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[16:33:01] [main/INFO] [FML]: Java is Java HotSpot(TM) Client VM, version 1.8.0_261, running on Windows 10:x86:10.0, installed at C:\Program Files (x86)\Java\jre1.8.0_261
+[16:33:01] [main/INFO] [FML]: Searching C:\Users\lukew\Desktop\pixlemon\.\mods for mods
+[16:33:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:33:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:33:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:33:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:33:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:33:03] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:33:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:33:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:33:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:33:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:33:03] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:33:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[16:33:06] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[16:33:06] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[16:33:06] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[16:33:07] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[16:33:07] [Server thread/INFO] [FML]: Config directory created successfully
+[16:33:07] [Server thread/INFO] [FML]: Searching C:\Users\lukew\Desktop\pixlemon\.\mods for mods
+[16:33:08] [Server thread/WARN] [FML]: Mod waystones is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.0.72
+[16:33:08] [Server thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
+[16:33:08] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[16:33:08] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, jei, journeymap, pixelmon, waystones] at CLIENT
+[16:33:08] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, jei, journeymap, pixelmon, waystones] at SERVER
+[16:33:09] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[16:33:09] [Server thread/INFO] [FML]: Found 1173 ObjectHolder annotations
+[16:33:09] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[16:33:09] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[16:33:09] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[16:33:09] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[16:33:09] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.1.2
+[16:33:10] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[16:33:10] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[16:33:10] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: AHEAD Target: null
+[16:33:10] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[16:33:10] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[16:33:12] [Server thread/INFO] [FML]: Applying holder lookups
+[16:33:12] [Server thread/INFO] [FML]: Holder lookups applied
+[16:33:13] [Server thread/INFO] [Pixelmon]: Loading TM/HMs.
+[16:33:13] [Server thread/INFO] [FML]: Applying holder lookups
+[16:33:13] [Server thread/INFO] [FML]: Holder lookups applied
+[16:33:13] [Server thread/INFO] [FML]: Applying holder lookups
+[16:33:13] [Server thread/INFO] [FML]: Holder lookups applied
+[16:33:13] [Server thread/INFO] [FML]: Applying holder lookups
+[16:33:13] [Server thread/INFO] [FML]: Holder lookups applied
+[16:33:13] [Server thread/INFO] [FML]: Injecting itemstacks
+[16:33:13] [Server thread/INFO] [FML]: Itemstack injection complete
+[16:33:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[16:33:13] [Server thread/WARN] [net.minecraft.server.dedicated.PropertyManager]: server.properties does not exist
+[16:33:13] [Server thread/INFO] [net.minecraft.server.dedicated.PropertyManager]: Generating new properties file
+[16:33:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[16:33:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[16:33:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[16:33:14] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[16:33:15] [Server thread/INFO] [FML]: Applying holder lookups
+[16:33:15] [Server thread/INFO] [FML]: Holder lookups applied
+[16:33:15] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[16:33:15] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[16:33:15] [Server thread/INFO] [Pixelmon]: Registering structures.
+[16:33:15] [Server thread/INFO] [Pixelmon]: Registering all drops.
+[16:33:16] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[16:33:16] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
+[16:33:17] [Server thread/INFO] [Pixelmon]: Registering quests.
+[16:33:17] [Server thread/INFO] [Pixelmon]: Loaded 34 Quests.
+[16:33:17] [Server thread/INFO] [FML]: Injecting itemstacks
+[16:33:17] [Server thread/INFO] [FML]: Itemstack injection complete
+[16:33:17] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[16:33:19] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 8 mods
+[16:33:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[16:33:19] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@1fef971)
+[16:33:20] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 732 advancements
+[16:33:21] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@1fef971)
+[16:33:21] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@1fef971)
+[16:33:21] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@1fef971)
+[16:33:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[16:33:22] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[16:33:22] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[16:33:22] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[16:33:22] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[16:33:22] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[16:33:22] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[16:33:22] [Server thread/WARN] [Pixelmon]: Ignore the above warning messages ^ This is intended and working fine.
+[16:33:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 6%
+[16:33:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 10%
+[16:33:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 12%
+[16:33:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%
+[16:33:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 18%
+[16:33:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 21%
+[16:33:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 24%
+[16:33:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 27%
+[16:33:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 29%
+[16:33:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 33%
+[16:33:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 36%
+[16:33:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 39%
+[16:33:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 42%
+[16:33:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 45%
+[16:33:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 49%
+[16:33:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 52%
+[16:33:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 55%
+[16:33:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 58%
+[16:33:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 60%
+[16:33:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 63%
+[16:33:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 65%
+[16:33:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 68%
+[16:33:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 70%
+[16:33:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 73%
+[16:33:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 76%
+[16:33:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 79%
+[16:33:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 82%
+[16:33:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 85%
+[16:33:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 88%
+[16:33:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 91%
+[16:33:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 94%
+[16:33:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 98%
+[16:33:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (36.205s)! For help, type "help" or "?"
+[16:33:55] [Server thread/INFO] [journeymap]: global (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.global.config
+[16:33:55] [Server thread/INFO] [journeymap]: global (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.global.config
+[16:33:55] [Server thread/INFO] [journeymap]: default (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.default.config
+[16:33:55] [Server thread/INFO] [journeymap]: default (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.default.config
+[16:33:55] [Server thread/INFO] [journeymap]: dim0 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim0.config
+[16:33:55] [Server thread/INFO] [journeymap]: dim0 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim0.config
+[16:33:55] [Server thread/INFO] [journeymap]: dim-1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim-1.config
+[16:33:55] [Server thread/INFO] [journeymap]: dim-1 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim-1.config
+[16:33:55] [Server thread/INFO] [journeymap]: dim1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim1.config
+[16:33:55] [Server thread/INFO] [journeymap]: dim1 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim1.config
+[16:33:56] [Server thread/INFO] [journeymap]: dim72 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim72.config
+[16:33:56] [Server thread/INFO] [journeymap]: dim72 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim72.config
+[16:33:56] [Server thread/INFO] [FML]: Unloading dimension -1
+[16:33:56] [Server thread/INFO] [FML]: Unloading dimension 1
+[16:33:56] [Server thread/INFO] [FML]: Unloading dimension 72
+[16:34:43] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2026ms behind, skipping 40 tick(s)
